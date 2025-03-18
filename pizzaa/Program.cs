@@ -11,3 +11,11 @@ Console.WriteLine("7. Pizza order from client, including possible creating of cu
 Console.WriteLine("8. Calculate a client (bill)");
 Console.WriteLine("8. Calculate a client (bill)");
 
+public class Pizza
+{
+    public string Name { get; set; }
+    public double Price { get; set; }
+    public string Ingridients { get; set; }
+    public string Size { get; set; }
+    public double Weight { get; set; }
+}
